@@ -12,6 +12,10 @@ public class LoginGoogle {
 		driver.findElement(By.name("q")).sendKeys("javatpoint");
 		driver.findElement(By.name("btnk")).click();
 		System.out.println("Swathi");
+		System.out.println("manasa");
+		System.out.println("madhuri");
+		System.out.println("manoj");
+		
 
 
 	}
