@@ -10,7 +10,8 @@ public class LoginGoogle {
 		ChromeDriver driver=new ChromeDriver();
 		driver.get("https://www.google.com");
 		driver.findElement(By.name("q")).sendKeys("javatpoint");
-		//driver.findElement(By.name("btnk")).click();
+		driver.findElement(By.name("btnk")).click();
+		System.out.println("Swathi");
 
 
 	}
